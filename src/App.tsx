@@ -1,9 +1,12 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600">
-        <h1 className="text-white text-4xl font-bold shadow-lg p-6 rounded-xl bg-black/20">
-          🚀 Tailwind is working!
+      <Navbar />
+      <div className="pt-24 text-center">
+        <h1 className="text-4xl font-bold text-gray-800">
+          Welcome to NetSpeed ⚡
         </h1>
       </div>
     </>
